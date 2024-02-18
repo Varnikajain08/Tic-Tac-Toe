@@ -1,0 +1,77 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+h1{
+    text-align: center;
+    color: rgb(23, 84, 127);
+    font-size: 50px;
+}
+body {
+    text-align: center;
+    background-image: url("tic\ tac.jpg");
+}
+.container {
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmin;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1vmin;
+    border: none;
+    font-size: 9vmin;
+    color: rgb(225, 51, 36);
+    background-color: rgb(57, 203, 145);
+}
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: rgb(23, 84, 127);
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+             
+#new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color:rgb(23, 84, 127) ;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+
+#msg{
+    color: rgb(225, 51, 36);
+    font-size: 6vmin;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.msg-container{
+    height: 30vmin ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.hide {
+    display: none;
+}
